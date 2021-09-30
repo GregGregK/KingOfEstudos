@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562215112229",
+    "project_id": "kingofestudos",
+    "storage_bucket": "kingofestudos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562215112229:android:da6c152120b529ccfa39cc",
+        "android_client_info": {
+          "package_name": "com.example.kingofestudos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562215112229-0699rm265voh4hebql32c4ml05qkp5gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmX9ZwvihKP6PKa65KMFAd1zjdgtpEfLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562215112229-0699rm265voh4hebql32c4ml05qkp5gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
