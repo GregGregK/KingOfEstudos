@@ -20,8 +20,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SignInActivity extends AppCompatActivity {
-
-
+    
     private EditText mEmail , mPass;
     private TextView mTextView;
     private Button signInBtn;
