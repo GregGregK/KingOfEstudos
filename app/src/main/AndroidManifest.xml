@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingOfEstudos">
-        <activity android:name=".TesteActivity"></activity>
+        <activity android:name=".CronometroActivity"></activity>
+        <activity android:name=".CalendarioActivity" />
+        <activity android:name=".TarefasActivity" />
+        <activity android:name=".SaudeActivity" />
+        <activity android:name=".ObjetivoActivity" />
+        <activity android:name=".TesteActivity" />
         <activity android:name=".InicioActivity" />
         <activity android:name=".SplashActivity" />
         <activity android:name=".SignInActivity" />
