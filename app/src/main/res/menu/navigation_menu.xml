@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/menuHome"
-        android:icon="@drawable/ic_home"
-        android:title="@string/home"/>
 
-    <item android:id="@+id/menuFavorite"
-        android:icon="@drawable/ic_favorite"
-        android:title="@string/favorite"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
 
-    <item android:id="@+id/menuAccount"
-        android:icon="@drawable/ic_account_circle"
-        android:title="@string/account"/>
+        <item
+            android:id="@+id/nav_goals"
+            android:icon="@drawable/goal"
+            android:title="@string/objetivos" />
 
-    <item android:id="@+id/menuSettings"
-        android:icon="@drawable/ic_settings"
-        android:title="@string/settings"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar"
+            android:title="@string/calendario" />
+
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/healthy"
+            android:title="@string/sa_de" />
+
+        <item
+            android:id="@+id/nav_tarefas"
+            android:icon="@drawable/homework"
+            android:title="@string/tarefas" />
+
+        <item
+            android:id="@+id/nav_clock"
+            android:icon="@drawable/clock"
+            android:title="@string/cronometro" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/perfil">
+
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/healthy"
+                android:title="@string/sa_de" />
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/homework"
+                android:title="@string/tarefas" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/clock"
+                android:title="@string/cronometro" />
 
 
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Compartilhe!"/>
+
+            <item android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate"
+                android:title="Nos avalie!"/>
+        </menu>
+    </item>
 </menu>

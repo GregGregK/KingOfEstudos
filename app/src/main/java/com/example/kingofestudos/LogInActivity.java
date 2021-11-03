@@ -28,7 +28,7 @@ public class LogInActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mAuth.signOut();
-                startActivity(new Intent(LogInActivity.this , HomeActivity.class));
+                startActivity(new Intent(LogInActivity.this , InicioActivity.class));
                 finish();
             }
         });

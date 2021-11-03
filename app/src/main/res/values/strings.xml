@@ -13,4 +13,10 @@
     <string name="favorite">favorite</string>
     <string name="account">account</string>
     <string name="settings">settings</string>
+    <string name="objetivos">Objetivos</string>
+    <string name="calendario">Calendario</string>
+    <string name="sa_de">Saúde</string>
+    <string name="tarefas">Tarefas</string>
+    <string name="cronometro">Cronometro</string>
+    <string name="perfil">Perfil</string>
 </resources>
