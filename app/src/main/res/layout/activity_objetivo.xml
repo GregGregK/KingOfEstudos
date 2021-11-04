@@ -8,34 +8,56 @@
     tools:context=".ObjetivoActivity">
 
     <LinearLayout
-        android:background="@color/dashboard_item_1"
+        android:background="@color/primary_text"
         android:layout_width="match_parent"
         android:layout_height="198dp"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tituloPagina"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/baloo"
-            android:gravity="center_horizontal"
-            android:text="Objetivos"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="32sp" />
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/subtituloPagina"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center_horizontal"
-            android:text="Organize seus afazeres"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/tituloPagina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Objetivos"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/subtituloPagina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Organize seus afazeres"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddNovo"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/bgbtnnovo"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_horizontal"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="30dp" />
+        </LinearLayout>
 
         <View
             android:layout_marginTop="20dp"
@@ -60,7 +82,7 @@
         android:id="@+id/fimdaPagina"
         android:textSize="16sp"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="Nada mais a fazer..."
         android:textAlignment="center"
         android:layout_width="match_parent"

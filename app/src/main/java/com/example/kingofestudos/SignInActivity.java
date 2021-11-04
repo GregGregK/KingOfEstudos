@@ -40,7 +40,7 @@ public class SignInActivity extends AppCompatActivity {
         mTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this , MainActivity.class));
+                startActivity(new Intent(SignInActivity.this , MainActivity.class));
             }
         });
         signInBtn.setOnClickListener(new View.OnClickListener() {

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingOfEstudos">
-        <activity android:name=".CronometroActivity"></activity>
+        <activity android:name=".NovoAfazerActivity"></activity>
+        <activity android:name=".CronometroActivity" />
         <activity android:name=".CalendarioActivity" />
         <activity android:name=".TarefasActivity" />
         <activity android:name=".SaudeActivity" />
