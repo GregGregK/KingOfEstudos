@@ -1,6 +1,7 @@
 package com.example.kingofestudos;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,9 +29,26 @@ public class AdaptadorAfazeres extends RecyclerView.Adapter<AdaptadorAfazeres.My
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-        myViewHolder.titledoes.setText(meusAfazeres.get(i).getTitledoes());
-        myViewHolder.descdoes.setText(meusAfazeres.get(i).getDescdoes());
-        myViewHolder.datedoes.setText(meusAfazeres.get(i).getDatedoes());
+        myViewHolder.tituloafazer.setText(meusAfazeres.get(i).getTituloafazer());
+        myViewHolder.descafazer.setText(meusAfazeres.get(i).getDescafazer());
+        myViewHolder.dataafazer.setText(meusAfazeres.get(i).getDatafazer());
+
+
+        final String getTituloAfazer = meusAfazeres.get(i).getTituloafazer();
+        final String getDescAfazer = meusAfazeres.get(i).getDescafazer();
+        final String getDataAfazer = meusAfazeres.get(i).getDatafazer();
+        final String getKeyDoes = meusAfazeres.get(i).getKeydoes();
+        myViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent aa = new Intent(context,EditarTaskDesk.class);
+                aa.putExtra("tituloafazer", getTituloAfazer);
+                aa.putExtra("descafazer", getDescAfazer);
+                aa.putExtra("dataafazer", getDataAfazer);
+                aa.putExtra("keydoes", getKeyDoes );
+                context.startActivity(aa);
+            }
+        });
     }
 
     @Override
@@ -39,13 +57,13 @@ public class AdaptadorAfazeres extends RecyclerView.Adapter<AdaptadorAfazeres.My
     }
 
     class MyViewHolder extends  RecyclerView.ViewHolder {
-        TextView titledoes, descdoes, datedoes;
+        TextView tituloafazer, descafazer, dataafazer, keydoes;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            titledoes = (TextView) itemView.findViewById(R.id.titledoes);
-            descdoes = (TextView) itemView.findViewById(R.id.descdoes);
-            datedoes = (TextView) itemView.findViewById(R.id.datedoes);
+            tituloafazer = (TextView) itemView.findViewById(R.id.tituloafazer);
+            descafazer = (TextView) itemView.findViewById(R.id.descafazer);
+            dataafazer = (TextView) itemView.findViewById(R.id.dataafazer);
 
         }
     }

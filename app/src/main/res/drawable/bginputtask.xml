@@ -4,10 +4,15 @@
     <item
         android:drawable="@drawable/bginputsel"
         android:state_pressed="true"
-        android:state_selected="true"
+        />
+    <item
+        android:drawable="@drawable/bginputsel"
         android:state_focused="true"
         />
     <item
-        android:drawable="@drawable/bginputunsel"
+        android:drawable="@drawable/bginputsel"
+        android:state_focused="true"/>
+    <item
+        android:drawable="@drawable/bginputsel"
         />
 </selector>

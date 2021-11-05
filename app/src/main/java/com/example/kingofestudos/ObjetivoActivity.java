@@ -39,6 +39,15 @@ public class ObjetivoActivity extends AppCompatActivity {
         subtituloPagina = findViewById(R.id.subtituloPagina);
         fimdaPagina = findViewById(R.id.fimdaPagina);
 
+        //importar fonte
+        Typeface MLight = Typeface.createFromAsset(getAssets(),"fonts/montserrat_light.otf");
+        Typeface MMedium = Typeface.createFromAsset(getAssets(),"fonts/montserrat_medium.otf");
+
+        //customizar fonte
+        tituloPagina.setTypeface(MMedium);
+        subtituloPagina.setTypeface(MLight);
+        fimdaPagina.setTypeface(MMedium);
+
         btnAddNovo = findViewById(R.id.btnAddNovo);
         btnAddNovo.setOnClickListener(new View.OnClickListener() {
             @Override

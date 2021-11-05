@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="28dp"
-            android:text="Criar novo objetivo"
+            android:text="Editar detalhes"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="26sp"
@@ -136,11 +136,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnSalvarAfazer"
+        android:id="@+id/btnSalvarDetalhes"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="22dp"
-        android:text="Crie Agora"
+        android:text="Salvar"
         android:textColor="#FFF"
         android:textAllCaps="false"
         android:background="@drawable/bgbtncriar"
@@ -149,11 +149,11 @@
         android:layout_height="55dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCancelar"
+        android:id="@+id/btnDelete"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="14dp"
-        android:text="Cancelar"
+        android:text="Deletar"
         android:textColor="#AFAFAF"
         android:textAllCaps="false"
         android:background="@drawable/bgbtncriar"

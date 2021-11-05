@@ -2,40 +2,50 @@ package com.example.kingofestudos;
 
 public class MeusAfazeres {
 
-    String titledoes;
-    String datedoes;
-    String descdoes;
+    String tituloafazer;
+    String datafazer;
+    String descafazer;
+    String keydoes;
 
     public MeusAfazeres() {
     }
 
-    public MeusAfazeres(String titledoes, String datedoes, String descdoes) {
-        this.titledoes = titledoes;
-        this.datedoes = datedoes;
-        this.descdoes = descdoes;
+    public MeusAfazeres(String tituloafazer, String datafazer, String descafazer, String keydoes) {
+        this.tituloafazer = tituloafazer;
+        this.datafazer = datafazer;
+        this.descafazer = descafazer;
+        this.keydoes = keydoes;
     }
 
-    public String getTitledoes() {
-        return titledoes;
+    public String getKeydoes() {
+        return keydoes;
     }
 
-    public void setTitledoes(String titleDoes) {
-        this.titledoes = titledoes;
+    public void setKeydoes(String keydoes) {
+        this.keydoes = keydoes;
     }
 
-    public String getDatedoes() {
-        return datedoes;
+    public String getTituloafazer() {
+        return tituloafazer;
     }
 
-    public void setDatedoes(String datedoes) {
-        this.datedoes = datedoes;
+    public void setTituloafazer(String tituloafazer) {
+        this.tituloafazer = tituloafazer;
     }
 
-    public String getDescdoes() {
-        return descdoes;
+    public String getDatafazer() {
+        return datafazer;
     }
 
-    public void setDescdoes(String descdoes) {
-        this.descdoes = descdoes;
+    public void setDatafazer(String datafazer) {
+        this.datafazer = datafazer;
+    }
+
+    public String getDescafazer() {
+        return descafazer;
+    }
+
+    public void Descafazer(String descafazer) {
+        this.descafazer = descafazer;
     }
 }

@@ -28,7 +28,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/montserrat_bold"
                     android:text="Objetivos"
                     android:textColor="@color/white"
                     android:textSize="32sp" />
@@ -38,7 +37,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:fontFamily="@font/montserrat"
                     android:text="Organize seus afazeres"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
@@ -51,8 +49,8 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="35dp"
                 android:background="@drawable/bgbtnnovo"
-                android:fontFamily="@font/montserrat"
                 android:gravity="center_horizontal"
+                android:includeFontPadding="false"
                 android:text="+"
                 android:textAlignment="center"
                 android:textColor="#FFF"

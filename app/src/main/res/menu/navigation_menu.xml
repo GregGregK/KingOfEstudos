@@ -34,39 +34,41 @@
             android:title="@string/cronometro" />
     </group>
 
-    <group android:checkableBehavior="single">
-        <item android:title="@string/perfil">
 
+    <item android:title="@string/perfil">
         <menu>
-            <item
-                android:id="@+id/nav_login"
-                android:icon="@drawable/healthy"
-                android:title="@string/sa_de" />
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login"
+                    android:title="@string/login" />
 
-            <item
-                android:id="@+id/nav_profile"
-                android:icon="@drawable/homework"
-                android:title="@string/tarefas" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="@string/seu_perfil" />
 
-            <item
-                android:id="@+id/nav_logout"
-                android:icon="@drawable/clock"
-                android:title="@string/cronometro" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/logout" />
 
-
+            </group>
         </menu>
-        </item>
-    </group>
+    </item>
+
 
     <item android:title="Comunicação">
         <menu>
-            <item android:id="@+id/nav_share"
+            <item
+                android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share"
-                android:title="Compartilhe!"/>
+                android:title="Compartilhe!" />
 
-            <item android:id="@+id/nav_rate"
+            <item
+                android:id="@+id/nav_rate"
                 android:icon="@drawable/ic_rate"
-                android:title="Nos avalie!"/>
+                android:title="Nos avalie!" />
         </menu>
     </item>
 </menu>
