@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".InicioActivity"
     android:fitsSystemWindows="true"
-    tools:openDrawer="">
+    tools:openDrawer="start">
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -99,7 +99,7 @@
                     android:layout_below="@id/target_img"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/aclonica"
+                    android:fontFamily="@font/baloo"
                     android:text="Objetivos"
                     android:textSize="24sp" />
 
@@ -109,7 +109,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/target" />
+                    app:srcCompat="@drawable/objetivo" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -131,7 +131,7 @@
                     android:layout_below="@id/saude_img"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:fontFamily="@font/aclonica"
+                    android:fontFamily="@font/baloo"
                     android:text="Saúde"
                     android:textSize="24sp" />
 
@@ -141,7 +141,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/healthy" />
+                    app:srcCompat="@drawable/forte" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -175,7 +175,7 @@
                     android:layout_below="@id/tarefa_img"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/aclonica"
+                    android:fontFamily="@font/baloo"
                     android:text="Tarefas"
                     android:textSize="24sp" />
 
@@ -185,7 +185,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/homework" />
+                    app:srcCompat="@drawable/dever" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -207,7 +207,7 @@
                     android:layout_below="@id/calendario_img"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:fontFamily="@font/aclonica"
+                    android:fontFamily="@font/baloo"
                     android:text="Calendário"
                     android:textSize="24sp" />
 
@@ -217,7 +217,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/calendar" />
+                    app:srcCompat="@drawable/cronograma" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -251,7 +251,7 @@
                     android:layout_below="@id/clock_img"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/aclonica"
+                    android:fontFamily="@font/baloo"
                     android:text="Cronometro"
                     android:textSize="24sp" />
 
@@ -261,7 +261,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/clock" />
+                    app:srcCompat="@drawable/cronometro" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -282,7 +282,7 @@
                     android:layout_below="@id/embreve_img"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:fontFamily="@font/aclonica"
+                    android:fontFamily="@font/baloo"
                     android:text="Em breve"
                     android:textSize="24sp" />
 
@@ -292,7 +292,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/soon" />
+                    app:srcCompat="@drawable/foco" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

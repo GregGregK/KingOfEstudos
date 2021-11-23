@@ -11,6 +11,8 @@
         android:id="@+id/email_reg"
         android:layout_width="311dp"
         android:layout_height="41dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/edit_shape"
         android:ems="10"
         android:hint="E-mail"
@@ -18,31 +20,37 @@
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:supportsRtl="true"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="414dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/registration_bt"
         android:layout_width="311dp"
         android:layout_height="41dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="37dp"
         android:background="@color/colorPrimaryDark"
         android:text="Registrar"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="516dp" />
+        app:layout_constraintTop_toBottomOf="@+id/passreg" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
         android:text="Já é registrado? Faça login"
         android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="600dp" />
+        app:layout_constraintTop_toBottomOf="@+id/email_reg" />
 
     <EditText
         android:id="@+id/passreg"

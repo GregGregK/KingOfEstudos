@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingOfEstudos">
-        <activity android:name=".EditarTaskDesk"></activity>
-        <activity android:name=".NovoAfazerActivity" />
+        <activity android:name=".WaterTrackingActivity"></activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".CronometroActivity" />
         <activity android:name=".CalendarioActivity" />
         <activity android:name=".TarefasActivity" />
@@ -18,16 +25,10 @@
         <activity android:name=".ObjetivoActivity" />
         <activity android:name=".TesteActivity" />
         <activity android:name=".InicioActivity" />
-        <activity android:name=".SplashActivity" />
+        <activity android:name=".EditarTaskDesk" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LogInActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".NovoAfazerActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

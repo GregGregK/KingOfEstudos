@@ -69,6 +69,7 @@
                 android:textColorHint="#B5B5B5"
                 android:textColor="@color/colorPrimaryDark"
                 android:hint="Oque irá fazer?"
+                android:maxLength="25"
                 android:layout_width="match_parent"
                 android:layout_height="45dp" />
         </LinearLayout>
@@ -128,6 +129,7 @@
                 android:textColorHint="#B5B5B5"
                 android:textColor="@color/colorPrimaryDark"
                 android:hint="Quando irá fazer?"
+                android:maxLength="25"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"/>
         </LinearLayout>

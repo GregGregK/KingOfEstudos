@@ -17,17 +17,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="496dp" />
+        tools:layout_editor_absoluteY="554dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="171dp"
         android:text="Não é registrado? Faça o registro"
         android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="669dp" />
+        app:layout_constraintTop_toBottomOf="@+id/signin_bt" />
 
     <EditText
         android:id="@+id/passsignin"
@@ -43,7 +46,7 @@
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="432dp" />
+        tools:layout_editor_absoluteY="483dp" />
 
     <EditText
         android:id="@+id/email_signin"
@@ -56,9 +59,8 @@
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="368dp" />
+        tools:layout_editor_absoluteY="424dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
